@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/lib-storage`](https://www.npmjs.com/package/@aws-sdk/lib-storage/v/3.1080.0).
+[`@aws-sdk/lib-storage`](https://www.npmjs.com/package/@aws-sdk/lib-storage/v/3.1081.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/lib-storage - [https://cloud-sdk-builds.github.io/?sdk=lib-storage](https://cloud-sdk-builds.github.io/?sdk=lib-storage)
-- @aws-sdk/lib-storage v3.1080.0 - [https://cloud-sdk-builds.github.io/?sdk=lib-storage&version=3.1080.0](https://cloud-sdk-builds.github.io/?sdk=lib-storage&version=3.1080.0)
+- @aws-sdk/lib-storage v3.1081.0 - [https://cloud-sdk-builds.github.io/?sdk=lib-storage&version=3.1081.0](https://cloud-sdk-builds.github.io/?sdk=lib-storage&version=3.1081.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,7 +33,7 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1080.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1081.0/index.min.mjs
 ```
 
 SRI SHA Hash
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/lib-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1080.0/index.min.mjs"
+            "@aws-sdk/lib-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1081.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1080.0/index.min.mjs": "sha384-OjeKN2Sr92frm3t9x6apqOT8OfhDRRqIaTul2ozqjjjp6arW2p+GaxPwc6j67dyc"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1081.0/index.min.mjs": "sha384-OjeKN2Sr92frm3t9x6apqOT8OfhDRRqIaTul2ozqjjjp6arW2p+GaxPwc6j67dyc"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/lib-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1080.0/index.min.mjs"
+                        "@aws-sdk/lib-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1081.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1080.0/index.min.mjs": "sha384-OjeKN2Sr92frm3t9x6apqOT8OfhDRRqIaTul2ozqjjjp6arW2p+GaxPwc6j67dyc"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-storage@3.1081.0/index.min.mjs": "sha384-OjeKN2Sr92frm3t9x6apqOT8OfhDRRqIaTul2ozqjjjp6arW2p+GaxPwc6j67dyc"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1080.0`)
+* Always pin to a specific version (`@3.1081.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/lib-storage/blob/refs/tags/3.1080.0/LICENSE
+https://github.com/cloud-sdk-builds/lib-storage/blob/refs/tags/3.1081.0/LICENSE
 ```
 
 ---
